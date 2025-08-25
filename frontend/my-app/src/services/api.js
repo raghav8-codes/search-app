@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://127.0.0.1:8000";  // FastAPI backend
+// Use the live Render backend URL
+const API_URL = "https://search-app-2-9i0j.onrender.com";  
 
 // 🔍 search and store results in DB
 export const searchAndStore = async (keyword) => {
